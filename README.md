@@ -33,7 +33,9 @@ This project demonstrates how to deploy a static HTML website** using **Nginx** 
   ```
 
 ### 4. Deployed Static Website /Ethereal
+  ```bash
 scp -r ./Ethereal ubuntu@<elastic-ip>:/var/www/html
+  ```
 
 ### 5. Verified Website via IP
 http://174.168.1.37
