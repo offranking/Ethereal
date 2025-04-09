@@ -1,23 +1,22 @@
 Static Website Using Nginx as Load Balancer
 
-This project demonstrates how to deploy a **static HTML website** using **Nginx** as a **Layer 7 Load Balancer**, with domain resolution via **DuckDNS** and server hosting on **AWS EC2**. SSL was configured using **Let's Encrypt**.
+This project demonstrates how to deploy a static HTML website** using **Nginx** as a Layer 7 Load Balancer**, with domain resolution via DuckDNS and server hosting on **AWS EC2**. SSL was configured using Let's Encrypt.
 
 
 ## Tech Stack
-- **AWS EC2 (Ubuntu Server)**
-- **Nginx**
-- **DuckDNS (Free Dynamic DNS)**
-- **Let's Encrypt (SSL via Certbot)**
-- **SCP (Secure Copy Protocol)**
-- **DIG (DNS Lookup)**
-- **OpenSSL (SSL Verification)**
+- AWS EC2 (Ubuntu Server)**
+- Nginx
+- DuckDNS (Free Dynamic DNS)**
+- Let's Encrypt (SSL via Certbot)**
+- SCP (Secure Copy Protocol)**
+- DIG (DNS Lookup)
+- OpenSSL (SSL Verification)
 
 
 ## Steps Followed
 
 ### 1. Domain Registration
-- Created a subdomain using [DuckDNS](https://boyals.duckdns.org
-)
+- Created a subdomain using [DuckDNS] https://boyals.duckdns.org
 
 
 ### 2. Server Setup on AWS
