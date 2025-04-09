@@ -24,7 +24,7 @@ This project demonstrates how to deploy a static HTML website** using **Nginx** 
 - Assigned an Elastic IP to ensure a static public IP.
 - SSH'd into the instance:
   ```bash
-  ssh ubuntu@174.168.1.37>
+  ssh ubuntu@174.168.1.37
 
 ### 3.  Installed Nginx
   ```bash
