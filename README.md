@@ -4,11 +4,11 @@ This project demonstrates how to deploy a static HTML website** using **Nginx** 
 
 
 ## Tech Stack
-- AWS EC2 (Ubuntu Server)**
+- AWS EC2 (Ubuntu Server)
 - Nginx
-- DuckDNS (Free Dynamic DNS)**
-- Let's Encrypt (SSL via Certbot)**
-- SCP (Secure Copy Protocol)**
+- DuckDNS (Free Dynamic DNS)
+- Let's Encrypt (SSL via Certbot)
+- SCP (Secure Copy Protocol)
 - DIG (DNS Lookup)
 - OpenSSL (SSL Verification)
 
@@ -28,8 +28,8 @@ This project demonstrates how to deploy a static HTML website** using **Nginx** 
 
 ### 3.  Installed Nginx
   ```bash
-- sudo apt update
-- sudo apt install nginx -y
+sudo apt update
+sudo apt install nginx -y
   ```
 
 ### 4. Deployed Static Website /Ethereal
