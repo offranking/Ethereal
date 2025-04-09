@@ -24,7 +24,7 @@ This project demonstrates how to deploy a static HTML website** using **Nginx** 
 - Assigned an Elastic IP to ensure a static public IP.
 - SSH'd into the instance:
   ```bash
-  ssh ubuntu@<your-elastic-ip>
+  ssh ubuntu@174.168.1.37>
 
 ### 3.  Installed Nginx
   ```bash
@@ -38,8 +38,9 @@ scp -r ./Ethereal ubuntu@<elastic-ip>:/var/www/html
   ```
 
 ### 5. Verified Website via IP
-http://174.168.1.37
-
+```bash
+http://52.14.20.167
+ ```
 ### 6. DNS Configuration with DuckDNS
 - Created an A record on DuckDNS pointing to the Elastic IP.
 -  Verified DNS record using:
